@@ -11,7 +11,7 @@ COPY . /app
 RUN pip3 install -r requirements.txt
 
 # Make port 5070 available to the world outside this container
-EXPOSE 5050
+EXPOSE 5000
 
 # Define environment variable
 #ENV NAME World
